@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: "Monserrat", sans-serif;
+  --font-fraunces: "Fraunces", serif;
+
+  --color-green-500: hsl(158, 36%, 37%);
+  --color-green-700: hsl(158, 42%, 18%);
+
+  --color-black: hsl(212, 21%, 14%);
+  --color-grey: hsl(228, 12%, 48%);
+  --color-cream: hsl(30, 38%, 92%);
+
+  --text-preset-1: 32px/100% var(--font-fraunces);
+  --text-preset-2: 14px/110% var(--font-montserrat);
+  --text-preset-3: 14px/160% var(--font-montserrat);
+  --text-preset-4: 12px/120% var(--font-montserrat);
+  --text-preset-5: 13px/120% var(--font-montserrat);
+}
+
+@utility text-preset-1 {
+  font: var(--text-preset-1);
+  font-weight: 700;
+}
+@utility text-preset-2 {
+  font: var(--text-preset-2);
+  font-weight: 700;
+}
+@utility text-preset-3 {
+  font: var(--text-preset-3);
+  font-weight: 500;
+}
+@utility text-preset-4 {
+  font: var(--text-preset-4);
+  font-weight: 500;
+}
+@utility text-preset-5 {
+  font: var(--text-preset-5);
+  font-weight: 500;
+}
