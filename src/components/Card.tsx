@@ -9,15 +9,15 @@ const Card = () => {
       <img
         src="/image-product-desktop.jpg"
         alt="product mobile"
-        className="max-w-full h-auto rounded-l-lg hidden md:block"
+        className=" rounded-l-lg h-full hidden md:block"
       />
       <div className="p-8 flex flex-col items-start justify-center gap-6 md:gap-8 text-grey">
         <div>
-          <p className="text-preset-4">PERFUME</p>
+          <p className="text-preset-4 tracking-[0.5em]">PERFUME</p>
           <h1 className=" text-preset-1 text-black py-6">
             Gabrielle Essence Eau De Parfum
           </h1>
-          <p className="text-preset-3">
+          <p className="text-preset-3 tracking-wider">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
